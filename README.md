@@ -5,3 +5,6 @@ Right now you can search for a country and it will display its flag, name, conti
 
 Might add some kind of functionality to it later. Dunno what tho.
 Right now this could serve as a basis for other projects.
+
+The countries API can be reached here:
+https://peterpiv.github.io/countries-API/

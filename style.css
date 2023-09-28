@@ -24,7 +24,35 @@ form {
 
 #displayed__country {
   width: 80%;
-  height: 500px;
-  background-color: brown;
+  /* height: 500px; */
   margin: 2rem auto;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "flag country__name"
+    "country__location country__info"; */
+}
+
+#country__name {
+  /* background-color: yellow; */
+  text-align: center;
+  /* grid-area: country__name; */
+}
+#country__location {
+  /* grid-area: country__location; */
+  /* background-color: blue; */
+  margin: auto;
+}
+#country__flag {
+  margin: auto;
+  img {
+    max-height: 60%;
+    /* grid-area: flag; */
+  }
+}
+#country__info {
+  /* grid-area: country__info; */
+  /* background-color: red; */
+  margin: auto;
 }
